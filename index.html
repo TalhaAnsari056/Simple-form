@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+    <div id="main">
+        <form action="" onSubmit="submitData(event)">
+            <div>
+                <input id="username" type="text" placeholder="enter username" onInput="inputValid()" />
+                <span class="error"></span></br></br>
+            </div>
+            <div>
+                <input id="password" type="text" placeholder="enter password"  onInput="checkPass()"/>
+                <span class="error"></span></br></br>
+            </div>
+            <div >
+                <input  id="CityName" type="text" placeholder="Enter Your City Name" oninput="checkCityName()"/>
+                <span class="error"></span></br></br>
+            </div>
+            <input type="submit" class="btn" />
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
