@@ -18,19 +18,21 @@ body{
     margin-left: 60px;
     border: 3px solid rgb(32, 26, 26);
     border-radius: 10px;
-    height: 320px;
+    height: 520px;
 
     align-items: center;
-    width: 250px;
+    width: 450px;
     background-color: #1C5D7A;
     
     
   }
  input{
-  padding: 7px;
+  padding: 15px;
+  line-height: 15px;
   border-radius: 10px;
   background-color: rgb(236, 231, 231);
   outline: none;
+  font-size: 25px;
  }
   
   .name > span {
@@ -41,24 +43,26 @@ body{
   }
   .error {
     color: black;
-    font-size: 0.8em;
+    font-size: 1.5em;
     color: red;
   }
   .btn {
     color: black;
     border-radius: 10px;
-    padding: 2px;
+    padding: 10px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 25px;
   }
   .ShowStatus{
     border: 3px solid black;
-    height: 320px;
-    width: 250px;
+    height: 520px;
+    width: 450px;
     margin-top: 60px;
     border-radius: 10px;
     display: none;
     color: #01003D;
     font-weight: bold;
+    font-size: 25px;
     background-color: #46717E;
     text-align: center;
   }
