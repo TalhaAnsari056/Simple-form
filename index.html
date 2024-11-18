@@ -8,24 +8,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="light">
-    <div id="main">
-        <form action="" onSubmit="submitData(event)">
-            <div>
-                <input id="username" type="text" placeholder="enter username" onInput="inputValid()" />
-                <span class="error"></span></br></br>
-            </div>
-            <div>
-                <input id="password" type="text" placeholder="enter password"  onInput="checkPass()"/>
-                <span class="error"></span></br></br>
-            </div>
-            <div >
-                <input  id="CityName" type="text" placeholder="Enter Your City Name" oninput="checkCityName()"/>
-                <span class="error"></span></br></br>
-            </div>
-            <input type="submit" class="btn" />
-        </form>
+<body>
+    <div class="container">
+    <div class="mainParent">
+        <div id="main">
+            <form action="" onSubmit="submitData(event)" class="forms">
+                <div>
+                    <input id="username" type="text" placeholder="enter username" onInput="inputValid()" />
+                    <span class="error"></span></br></br>
+                </div>
+                <div>
+                    <input id="password" type="text" placeholder="enter password" onInput="checkPass()" />
+                    <span class="error"></span></br></br>
+                </div>
+                <div>
+                    <input id="CityName" type="text" placeholder="Enter Your City Name" oninput="checkCityName()" />
+                    <span class="error"></span></br></br>
+                </div>
+                <input type="submit" class="btn" />
+            </form><br>
+        </div>
     </div>
+    <div class="ShowStatus">
+        <p>Student Name : <Span class="nameSp"></Span></p>
+        <hr>
+        <p>Your Marks : <Span class="markSp"></Span></p>
+        <hr>
+        <p>Your Grade : <Span class="gradeSp"></Span></p>
+        <hr>
+        <p>Your Status : <Span class="statusSp"></Span></p><span class="hide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium sint sit excepturi veritatis eveniet quis sedbfurfgi7ifrkguervygv7</span>
+        <button onclick="closeData()" class="btn">Close</button>
+    </div>
+</div>
+
+
+
     <script src="./app.js"></script>
 </body>
 
