@@ -1,69 +1,77 @@
-body{
+body {
   background-image: url("pic.png");
-    background-size: cover;
+  background-size: cover;
 }
-  .container{
-    display: flex;
-    gap: 10px;
-    background-image: url("pic.png");
-    background-size: cover;
-   
 
-  }
-  .mainParent{
-    display: flex;
-    justify-content: center;
-    
-    margin-top: 60px;
-    margin-left: 60px;
-    border: 3px solid rgb(32, 26, 26);
-    border-radius: 10px;
-    height: 520px;
+.container {
+  display: flex;
+  gap: 65px;
+  background-image: url("pic.png");
+  background-size: cover;
 
-    align-items: center;
-    width: 450px;
-    background-color: #1C5D7A;
-    
-    
-  }
- input{
+
+}
+
+.mainParent {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 60px;
+  margin-left: 60px;
+  border: 5px solid rgb(32, 26, 26);
+  border-radius: 30px;
+  height: 520px;
+
+  align-items: center;
+  width: 450px;
+  background-color: #1C5D7A;
+  opacity: 60%;
+
+}
+
+input {
   padding: 15px;
   line-height: 15px;
   border-radius: 10px;
   background-color: rgb(236, 231, 231);
   outline: none;
   font-size: 25px;
- }
-  
-  .name > span {
-    display: none;
-  }
-  .hide{
-    visibility: hidden;
-  }
-  .error {
-    color: black;
-    font-size: 1.5em;
-    color: red;
-  }
-  .btn {
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 25px;
-  }
-  .ShowStatus{
-    border: 3px solid black;
-    height: 520px;
-    width: 450px;
-    margin-top: 60px;
-    border-radius: 10px;
-    display: none;
-    color: #01003D;
-    font-weight: bold;
-    font-size: 25px;
-    background-color: #46717E;
-    text-align: center;
-  }
- 
+}
+
+.name>span {
+  display: none;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.error {
+  color: black;
+  font-size: 1.5em;
+  color: red;
+}
+
+.btn {
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.ShowStatus {
+  border: 5px solid rgb(32, 26, 26);
+  height: 520px;
+  width: 450px;
+  margin-top: 60px;
+  border-radius: 30px;
+  display: none;
+  color: #01003D;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #46717E;
+  text-align: center;
+  opacity: 80%;
+
+}
